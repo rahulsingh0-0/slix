@@ -1706,13 +1706,19 @@ body.mobile .popup-content.active {
   cursor: url(../images/drag-vertical.png) 8 16, ns-resize;
 }
 .swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper,
-.swiper-button-disabled + .swiper-button-disabled + .swiper-container > .swiper-wrapper {
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-container
+  > .swiper-wrapper {
   transform: none !important;
   -webkit-transform: none !important;
   cursor: auto;
   justify-content: center;
 }
-.swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper .swiper-slide:last-child,
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-wrapper
+  .swiper-slide:last-child,
 .swiper-button-disabled
   + .swiper-button-disabled
   + .swiper-container
@@ -1720,8 +1726,14 @@ body.mobile .popup-content.active {
   .swiper-slide:last-child {
   margin-right: 0 !important;
 }
-.swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper + .swiper-pagination-bullets,
-.swiper-button-disabled + .swiper-button-disabled + .swiper-container > .swiper-pagination-bullets {
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-wrapper
+  + .swiper-pagination-bullets,
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-container
+  > .swiper-pagination-bullets {
   display: none !important;
 }
 .swiper-container-horizontal {
@@ -1807,12 +1819,11 @@ body.mobile .popup-content.active {
 /* 05 - HEADER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 header {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 10;
-  -webkit-backface-visibility: hidden;
 }
 @media (min-width: 992px) {
   header {
@@ -1820,7 +1831,8 @@ header {
     -webkit-transition: all 0.15s;
   }
   header.scrolled {
-    top: -60px;
+    position: fixed;
+    top: 0;
   }
 }
 .header-empty-space {
@@ -5024,9 +5036,9 @@ span.pagination {
   .tabulation-title {
     display: block;
   }
-  .tabulation-toggle {
+  /* .tabulation-toggle {
     display: none;
-  }
+  } */
   .tabulation-title.active + .tabulation-toggle {
     display: block;
   }
@@ -5626,4 +5638,7 @@ body.loaded .big-slider-product .preview {
   .header-bottom {
     display: none;
   }
+}
+
+.tab-content-container {
 }
