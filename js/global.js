@@ -254,8 +254,19 @@ $(function () {
   /*==============================*/
 
   //open and close responsive menu
-  $(".hamburger-icon, .nav-close-layer").on("click", function () {
+  $(".hamburger-icon,.nav-close-layer,.close-nav").on("click", function () {
     $(".nav-wrapper").toggleClass("active");
+    if (document.querySelector(".nav-wrapper").classList.contains("active")) {
+      $("html").css({
+        overflow: "hidden",
+        height: "100%",
+      });
+    } else {
+      $("html, body").css({
+        overflow: "unset",
+        height: "auto",
+      });
+    }
   });
 
   //toggle menu in responsive mode
