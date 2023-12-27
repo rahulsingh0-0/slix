@@ -25,7 +25,7 @@ document.querySelector(".load-navbar").innerHTML = `<header>
                 <a href="/about.html">about us</a>
               </li>
               <li class="megamenu-wrapper">
-                <a href="products1.html">products</a>
+                <a href="/product.html">products</a>
                 <!-- <div class="menu-toggle"></div>
                 <div class="">
                   <div class="links">
@@ -118,7 +118,7 @@ document.querySelector(".footer").innerHTML = `<footer>
           <div>
            <a class="home-tab" href="index.html">home</a> 
             <a href="about.html">about us</a>
-            <a href="#">products</a>
+            <a href="/product.html">products</a>
             <!-- <a href="#">services</a> -->
             <!-- <a href="#">blog</a> -->
             <!-- <a href="#">gallery</a> -->
