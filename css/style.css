@@ -5738,3 +5738,63 @@ body.loaded .big-slider-product .preview {
   object-fit: cover;
   height: 300px;
 }
+
+.grid-popup-container {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.649);
+  display: none;
+  padding-inline: 2rem;
+}
+
+.grid-popup-container.active {
+  display: flex;
+}
+
+.pop-card {
+  background-color: white;
+  padding: 1rem 2rem;
+  max-height: 80vh;
+  overflow-y: scroll;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.pop-card-image {
+  display: flex;
+  justify-content: center;
+}
+.pop-card-image > img {
+  height: 40vh;
+  object-fit: cover;
+}
+
+.pop-card-content {
+  margin-top: 1rem;
+}
+.pop-card-content > p {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.pop-up-close-button {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.content-heading {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  padding-block: 1rem;
+}
