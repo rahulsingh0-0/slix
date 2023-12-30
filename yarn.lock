@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@esbuild/win32-x64@0.19.10":
-  version "0.19.10"
-  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.19.10.tgz"
-  integrity sha512-whqLG6Sc70AbU73fFYvuYzaE4MNMBIlR1Y/IrUeOXFrWHxBEjjbZaQ3IXIQS8wJdAzue2GwYZCjOrgrU1oUHoA==
+"@esbuild/win32-x64@0.19.11":
+  version "0.19.11"
+  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.19.11.tgz"
+  integrity sha512-vfkhltrjCAb603XaFhqhAF4LGDi2M4OrCRrFusyQ+iTLQ/o60QQXxc9cZC/FFpihBI9N1Grn6SMKVJ4KP7Fuiw==
 
 "@rollup/rollup-win32-x64-msvc@4.9.1":
   version "4.9.1"
@@ -18,33 +18,33 @@ bootstrap-icons@^1.11.2:
   integrity sha512-TgdiPv+IM9tgDb+dsxrnGIyocsk85d2M7T0qIgkvPedZeoZfyeG/j+yiAE4uHCEayKef2RP05ahQ0/e9Sv75Wg==
 
 esbuild@^0.19.3:
-  version "0.19.10"
-  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.19.10.tgz"
-  integrity sha512-S1Y27QGt/snkNYrRcswgRFqZjaTG5a5xM3EQo97uNBnH505pdzSNe/HLBq1v0RO7iK/ngdbhJB6mDAp0OK+iUA==
+  version "0.19.11"
+  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.19.11.tgz"
+  integrity sha512-HJ96Hev2hX/6i5cDVwcqiJBBtuo9+FeIJOtZ9W1kA5M6AMJRHUZlpYZ1/SbEwtO0ioNAW8rUooVpC/WehY2SfA==
   optionalDependencies:
-    "@esbuild/aix-ppc64" "0.19.10"
-    "@esbuild/android-arm" "0.19.10"
-    "@esbuild/android-arm64" "0.19.10"
-    "@esbuild/android-x64" "0.19.10"
-    "@esbuild/darwin-arm64" "0.19.10"
-    "@esbuild/darwin-x64" "0.19.10"
-    "@esbuild/freebsd-arm64" "0.19.10"
-    "@esbuild/freebsd-x64" "0.19.10"
-    "@esbuild/linux-arm" "0.19.10"
-    "@esbuild/linux-arm64" "0.19.10"
-    "@esbuild/linux-ia32" "0.19.10"
-    "@esbuild/linux-loong64" "0.19.10"
-    "@esbuild/linux-mips64el" "0.19.10"
-    "@esbuild/linux-ppc64" "0.19.10"
-    "@esbuild/linux-riscv64" "0.19.10"
-    "@esbuild/linux-s390x" "0.19.10"
-    "@esbuild/linux-x64" "0.19.10"
-    "@esbuild/netbsd-x64" "0.19.10"
-    "@esbuild/openbsd-x64" "0.19.10"
-    "@esbuild/sunos-x64" "0.19.10"
-    "@esbuild/win32-arm64" "0.19.10"
-    "@esbuild/win32-ia32" "0.19.10"
-    "@esbuild/win32-x64" "0.19.10"
+    "@esbuild/aix-ppc64" "0.19.11"
+    "@esbuild/android-arm" "0.19.11"
+    "@esbuild/android-arm64" "0.19.11"
+    "@esbuild/android-x64" "0.19.11"
+    "@esbuild/darwin-arm64" "0.19.11"
+    "@esbuild/darwin-x64" "0.19.11"
+    "@esbuild/freebsd-arm64" "0.19.11"
+    "@esbuild/freebsd-x64" "0.19.11"
+    "@esbuild/linux-arm" "0.19.11"
+    "@esbuild/linux-arm64" "0.19.11"
+    "@esbuild/linux-ia32" "0.19.11"
+    "@esbuild/linux-loong64" "0.19.11"
+    "@esbuild/linux-mips64el" "0.19.11"
+    "@esbuild/linux-ppc64" "0.19.11"
+    "@esbuild/linux-riscv64" "0.19.11"
+    "@esbuild/linux-s390x" "0.19.11"
+    "@esbuild/linux-x64" "0.19.11"
+    "@esbuild/netbsd-x64" "0.19.11"
+    "@esbuild/openbsd-x64" "0.19.11"
+    "@esbuild/sunos-x64" "0.19.11"
+    "@esbuild/win32-arm64" "0.19.11"
+    "@esbuild/win32-ia32" "0.19.11"
+    "@esbuild/win32-x64" "0.19.11"
 
 nanoid@^3.3.7:
   version "3.3.7"
