@@ -5684,6 +5684,16 @@ body.loaded .big-slider-product .preview {
   nav > ul {
     text-align: center;
   }
+  .mission-container,
+  .vision-container {
+    flex-direction: column;
+  }
+  .mission-container > div {
+    margin-bottom: 1rem;
+  }
+  .vision-container > div {
+    margin-bottom: 1rem;
+  }
 }
 .close-nav-container {
   text-align: end;
@@ -5789,6 +5799,6 @@ body.loaded .big-slider-product .preview {
   padding-block: 1rem;
 }
 .simple-article {
-  text-align: center;
+  text-align: center !important;
   width: 100%;
 }
