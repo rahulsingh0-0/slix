@@ -5802,3 +5802,23 @@ body.loaded .big-slider-product .preview {
   text-align: center !important;
   width: 100%;
 }
+.contribute ol li {
+  list-style: decimal;
+  text-align: left;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.contribute {
+  width: 100%;
+}
+.contribute ol {
+  margin: 1rem;
+  text-align: left;
+}
+.product-card {
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+.product-card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

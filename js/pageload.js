@@ -40,6 +40,7 @@ document.querySelector(".load-navbar").innerHTML = `<header>
               </li>
 
               <li><a href="/contact.html">contact</a></li>
+              <li><a href="/sustainability.html">Sustainablity</a></li>
             </ul>
           </nav>
         </div>
@@ -123,6 +124,7 @@ document.querySelector(".footer").innerHTML = `<footer>
             <!-- <a href="#">blog</a> -->
             <!-- <a href="#">gallery</a> -->
             <a href="contact.html">contact</a>
+            <a href="sustainability.html">sustainablity</a>
           </div>
         </div>
       </div>
