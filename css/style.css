@@ -1706,19 +1706,13 @@ body.mobile .popup-content.active {
   cursor: url(../images/drag-vertical.png) 8 16, ns-resize;
 }
 .swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper,
-.swiper-button-disabled
-  + .swiper-button-disabled
-  + .swiper-container
-  > .swiper-wrapper {
+.swiper-button-disabled + .swiper-button-disabled + .swiper-container > .swiper-wrapper {
   transform: none !important;
   -webkit-transform: none !important;
   cursor: auto;
   justify-content: center;
 }
-.swiper-button-disabled
-  + .swiper-button-disabled
-  + .swiper-wrapper
-  .swiper-slide:last-child,
+.swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper .swiper-slide:last-child,
 .swiper-button-disabled
   + .swiper-button-disabled
   + .swiper-container
@@ -1726,14 +1720,8 @@ body.mobile .popup-content.active {
   .swiper-slide:last-child {
   margin-right: 0 !important;
 }
-.swiper-button-disabled
-  + .swiper-button-disabled
-  + .swiper-wrapper
-  + .swiper-pagination-bullets,
-.swiper-button-disabled
-  + .swiper-button-disabled
-  + .swiper-container
-  > .swiper-pagination-bullets {
+.swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper + .swiper-pagination-bullets,
+.swiper-button-disabled + .swiper-button-disabled + .swiper-container > .swiper-pagination-bullets {
   display: none !important;
 }
 .swiper-container-horizontal {
@@ -5689,6 +5677,9 @@ body.loaded .big-slider-product .preview {
   nav {
     width: 100%;
   }
+  .h2 {
+    text-align: center;
+  }
 
   nav > ul {
     text-align: center;
@@ -5730,8 +5721,7 @@ body.loaded .big-slider-product .preview {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
-    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .product-card-grid > .product-card > img {
   width: 200px;
@@ -5797,4 +5787,8 @@ body.loaded .big-slider-product .preview {
   font-weight: bolder;
   text-align: center;
   padding-block: 1rem;
+}
+.simple-article {
+  text-align: center;
+  width: 100%;
 }
