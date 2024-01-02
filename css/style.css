@@ -1706,13 +1706,19 @@ body.mobile .popup-content.active {
   cursor: url(../images/drag-vertical.png) 8 16, ns-resize;
 }
 .swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper,
-.swiper-button-disabled + .swiper-button-disabled + .swiper-container > .swiper-wrapper {
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-container
+  > .swiper-wrapper {
   transform: none !important;
   -webkit-transform: none !important;
   cursor: auto;
   justify-content: center;
 }
-.swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper .swiper-slide:last-child,
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-wrapper
+  .swiper-slide:last-child,
 .swiper-button-disabled
   + .swiper-button-disabled
   + .swiper-container
@@ -1720,8 +1726,14 @@ body.mobile .popup-content.active {
   .swiper-slide:last-child {
   margin-right: 0 !important;
 }
-.swiper-button-disabled + .swiper-button-disabled + .swiper-wrapper + .swiper-pagination-bullets,
-.swiper-button-disabled + .swiper-button-disabled + .swiper-container > .swiper-pagination-bullets {
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-wrapper
+  + .swiper-pagination-bullets,
+.swiper-button-disabled
+  + .swiper-button-disabled
+  + .swiper-container
+  > .swiper-pagination-bullets {
   display: none !important;
 }
 .swiper-container-horizontal {
@@ -5731,7 +5743,8 @@ body.loaded .big-slider-product .preview {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .product-card-grid > .product-card > img {
   width: 200px;
@@ -5822,3 +5835,22 @@ body.loaded .big-slider-product .preview {
 .product-card:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+/* .about {
+  position: relative;
+}
+
+.about .container {
+  position: relative;
+  z-index: 1;
+}
+
+.about::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.36);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
