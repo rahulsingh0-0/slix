@@ -39,8 +39,9 @@ document.querySelector(".load-navbar").innerHTML = `<header>
                 </div> -->
               </li>
 
-              <li><a href="/contact.html">contact</a></li>
               <li><a href="/sustainability.html">Sustainablity</a></li>
+              <li><a href="/contact.html">contact</a></li>
+
             </ul>
           </nav>
         </div>
