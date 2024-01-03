@@ -100,15 +100,15 @@ document.querySelector(".footer").innerHTML = `<footer>
           "
         >
           <div class="footer-contact">
-            <i class="fa fa-mobile" aria-hidden="true"></i> contact us:
+          <i class="fa text-white fs-6 fa-solid fa-phone"></i> contact us:
             <a href="tel:+35235551238745">+971 52 835 3817</a>
           </div>
           <div class="footer-contact">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i> email:
+            <i class="fa text-white fs-6 fa-solid fa-envelope" aria-hidden="true"></i> email:
             <a href="mailto:office@exzo.com">sales@ukeagle.ae</a>
           </div>
           <div class="footer-contact">
-            <i class="fa fa-map-marker" aria-hidden="true"></i> address:
+            <i class="fa text-white fs-6 fa-solid fa-map-marker" aria-hidden="true"></i> address:
             <a href="#">Post Box No 112356 Dubai UAE</a>
           </div>
         </div>
@@ -134,14 +134,12 @@ document.querySelector(".footer").innerHTML = `<footer>
         <h6 class="h6 light">some posts</h6>
         <div class="empty-space col-xs-b20"></div>
         <div class="follow">
-          <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
-          <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
-          <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
+          <a class="entry" href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a class="entry" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a class="entry" href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="entry" href="#"> <i class="fa-brands fa-x-twitter "></i></a>
           <a class="entry" href="#"
-            ><i class="fa fa-google-plus"></i
-          ></a>
-          <a class="entry" href="#"
-            ><i class="fa fa-pinterest-p"></i
+            ><i class="fa-brands fa-youtube"></i
           ></a>
         </div>
       </div>
@@ -172,7 +170,7 @@ document.querySelector(".footer").innerHTML = `<footer>
           2022 © All Rights Reserved By UK EAGLE/Slix
         </div>
         <!-- <div class="follow">
-            <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="entry" href="#"><i class="fa fa-instagram></i></a>
             <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
             <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
             <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>

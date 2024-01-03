@@ -1461,9 +1461,7 @@ form {
 .follow .entry {
   width: 35px;
   height: 35px;
-  line-height: 35px;
-  display: inline-block;
-  vertical-align: bottom;
+  display: inline-flex;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   background: #424242;
@@ -1472,7 +1470,8 @@ form {
   margin: 0 7px 7px 7px;
   cursor: pointer;
   position: relative;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .follow.light .entry {
   background: #f7f7f7;
@@ -1485,7 +1484,7 @@ form {
   line-height: inherit;
   position: relative;
 }
-.follow .entry:before {
+/* .follow .entry:before {
   position: absolute;
   left: -1px;
   top: -1px;
@@ -1497,7 +1496,7 @@ form {
   background: #b8cd06;
   transform: scale(0);
   -webkit-transform: scale(0);
-}
+} */
 .follow .entry:hover:before {
   transform: scale(1);
   -webkit-transform: scale(1);
@@ -1590,6 +1589,7 @@ body.mobile .popup-content.active {
   height: 100%;
   content: "";
 }
+
 .popup-container {
   display: inline-block;
   vertical-align: middle;
@@ -5849,8 +5849,14 @@ body.loaded .big-slider-product .preview {
   content: "";
   background-color: rgba(0, 0, 0, 0.36);
   width: 100%;
-  height: 100%;
+height: 100%;
   position: absolute;
   left: 0;
   top: 0;
 } */
+
+@media screen and (min-width: 768px) {
+  .home-text {
+    text-align: start !important;
+  }
+}
